@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GRUPO ALGE - Soluciones Integrales en Ingeniería</title>
+
+    <!-- Estilos -->
+    <link rel="stylesheet" href="css/style1.css">
+
+    <!-- Tipografías -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Exo+2:wght@500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Íconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Favicon -->
+    <link rel="icon" href="images/logo estrella.png" type="image/png">
+
+    <!-- SEO -->
+    <meta name="description" content="Grupo Alge - Ingeniería de Excelencia. Soluciones innovadoras para desafíos técnicos complejos. Especialistas en ingeniería industrial, mecánica y automatización.">
+    <meta name="keywords" content="ingeniería, industrial, mecánica, automatización, soluciones, proyectos, excelencia">
+</head>
+<body>
+
+<header class="header">
+  <nav class="nav container" aria-label="Navegación principal">
+    
+    <a href="index.html" class="logo" aria-label="Inicio">
+      <img src="images/logo estrella.png" alt="Logo Grupo Alge" style="height:120px; margin-right:18px;">
+      GRUPO ALGE
+    </a>
+
+    
+
+    <!-- Fondo para cerrar menú -->
+    <div class="nav-backdrop" hidden></div>
+
+    <!-- Menú -->
+    <div id="primary-menu" class="nav-links">
+      <a href="nosotros.html" class="nav-link">Nosotros</a>
+
+      <!-- Dropdown -->
+      <div class="nav-group">
+        <button class="nav-link nav-dropdown-toggle" aria-expanded="false">
+          Servicios <i class="fas fa-chevron-down"></i>
+        </button>
+
+        <div class="nav-dropdown">
+          <a href="sustitucion.html" class="nav-sublink">Sustitución de Importaciones</a>
+          <a href="overhaul.html" class="nav-sublink">Overhaul</a>
+          <a href="diseño.html" class="nav-sublink">Diseño y Maquinado</a>
+          <a href="consultoria.html" class="nav-sublink">Consultoría</a>
+          <a href="automatizacion.html" class="nav-sublink">Automatización</a>
+        </div>
+      </div>
+
+      <a href="galeria.html" class="nav-link">Galería</a>
+      <a href="contacto.html" class="nav-link">Contacto</a>
+      <a href="https://facebook.com/controlytecnologiaenllenado" target="_blank" class="social-link">
+                            <img src="images/Facebook_Logo_(2019).png" alt="Facebook" style="width:24px; height:24px; vertical-align:middle;">
+                        </a>
+
+                        <a href="https://wa.me/+525573916947" target="_blank" class="social-link">
+                            <img src="images/whatsapp.png" alt="WhatsApp" style="width:24px; height:24px; vertical-align:middle;">
+                        </a>
+    </div>
+  </nav>
+</header>
+
+<section class="hero-carousel">
+  <div class="carousel-container">
+    <div class="carousel-slides">
+
+      <!-- Slide 1 -->
+      <div class="carousel-slide active">
+        <video class="slide-video" autoplay muted loop>
+          <source src="images/videobotellas.mp4" type="video/mp4">
+        </video>
+        <div class="overlay"></div>
+        <div class="slide-content">
+          <div class="hero-content">
+            <h1 class="hero-title">Gestionamos ingeniería a equipos, lineas productivas de sólidos y líquidos nacionalizando las importaciones </h1>
+            <div class="cta-buttons">
+              <a href="galeria.html" class="btn btn-primary">Ver Galería</a>
+              <a href="contacto.html" class="btn btn-secondary">Contacto Rápido</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 2 -->
+      <div class="carousel-slide">
+        <video class="slide-video" autoplay muted loop>
+          <source src="images/videoCNN.mp4" type="video/mp4">
+        </video>
+        <div class="overlay"></div>
+        <div class="slide-content">
+          <div class="hero-content">
+            <h1 class="hero-title">Mejoramos sus procesos por medios de sus activos, Asset Management y Human Management</h1>
+            <div class="cta-buttons">
+              <a href="galeria.html" class="btn btn-primary">Ver Galería</a>
+              <a href="contacto.html" class="btn btn-secondary">Contacto Rápido</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 3 -->
+      <div class="carousel-slide">
+        <video class="slide-video" autoplay muted loop>
+          <source src="images/videoinicio.mp4" type="video/mp4">
+        </video>
+        <div class="overlay"></div>
+        <div class="slide-content">
+          <div class="hero-content">
+            <h1 class="hero-title">Gestionamos proyectos completos: obra civil, apertura de contenedores, maniobra, instalación, puesta en marcha y planes de mantenimiento </h1>
+            <div class="cta-buttons">
+              <a href="galeria.html" class="btn btn-primary">Ver Galería</a>
+              <a href="contacto.html" class="btn btn-secondary">Contacto Rápido</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 4 -->
+      <div class="carousel-slide">
+        <video class="slide-video" autoplay muted loop>
+          <source src="images/diseño 2.mp4" type="video/mp4">
+        </video>
+        <div class="overlay"></div>
+        <div class="slide-content">
+          <div class="hero-content">
+            <h1 class="hero-title">Maquinado en CNC,corte por hilo, penetración,engranes y recubrimientos.</h1>
+            <div class="cta-buttons">
+              <a href="galeria.html" class="btn btn-primary">Ver Galería</a>
+              <a href="contacto.html" class="btn btn-secondary">Contacto Rápido</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+                <!-- Slide 5 -->
+                <div class="carousel-slide">
+                    <video class="slide-video" autoplay muted loop>
+                        <source src="/images/diseño 3.mp4" type="video/mp4">
+                        Tu navegador no soporta videos HTML5.
+                    </video>
+                    <div class="overlay"></div>
+                    <div class="slide-content">
+                        <div class="hero-content">
+                            <h1 class="hero-title"> Ingeniería inversa a pie de máquina, impresiones en 3D como propuestas físicas, adaptación de nuevos productos a sus equipos actuales, proyectos de nacionalización.
+                            </h1>
+                            <div class="cta-buttons">
+                                <a href="galeria.html" class="btn btn-primary">Ver Galería</a>
+                                <a href="contacto.html" class="btn btn-secondary">Contacto Rápido</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+
+
+            
+            <!-- Flechas de navegación -->
+            <button class="carousel-control prev">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+            <button class="carousel-control next">
+                <i class="fas fa-chevron-right"></i>
+            </button>
+            
+            <!-- Indicadores -->
+            <div class="carousel-indicators">
+                <div class="indicator active" data-index="0"></div>
+                <div class="indicator" data-index="1"></div>
+                <div class="indicator" data-index="2"></div>
+                <div class="indicator" data-index="3"></div>
+                <div class="indicator" data-index="4"></div>
+                
+            </div>
+        </div>
+    </section>
+
+   <!-- Features Section -->
+<section class="features">
+    <div class="container">
+        <div class="feature-grid">
+
+            <div class="feature-card">
+                <div class="feature-video" onclick="openVideo('images/diseño 6.mp4')">
+                    <video muted preload="metadata">
+                        <source src="images/diseño 6.mp4" type="video/mp4">
+                    </video>
+
+                    <div class="play-overlay">
+                        <i class="fas fa-play"></i>
+                    </div>
+                </div>
+
+                <h3>Diseño CAD - CAM</h3>
+                <p>Herramienta para sus diseños, mejoras y optimización a sus equipos</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-video" onclick="openVideo('images/diseño 7.mp4')">
+                    <video muted preload="metadata">
+                        <source src="images/diseño 7.mp4" type="video/mp4">
+                    </video>
+
+                    <div class="play-overlay">
+                        <i class="fas fa-play"></i>
+                    </div>
+                </div>
+
+                <h3>Sustitución de importaciones</h3>
+                <p>Diseño de la pieza, análisis metrológico, análisis de dureza, investigación plásticos de ingeniería, fabricación de la pieza, puesta en marcha, validación de la máquina.</p>
+            </div>
+
+
+            <div class="feature-card">
+                <div class="feature-video" onclick="openVideo('images/diseño 8.mp4')">
+                    <video muted preload="metadata">
+                        <source src="images/diseño 8.mp4" type="video/mp4">
+                    </video>
+
+                    <div class="play-overlay">
+                        <i class="fas fa-play"></i>
+                    </div>
+                </div>
+
+                <h3>Overhaul</h3>
+                <p>El crecimiento de nuestros clientes también está  basado en la restauración de sus equipos, conocerlos, capacitando y evitar mantenimmientos histéricos </p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+    <!-- Services Section -->
+    <section class="services" id="servicios">
+        <div class="container">
+            <h2 class="section-title">Sustitución de importaciones.
+                Plan de nacionalización de partes de maquinaria
+            </h2>
+            <p class="section-subtitle"></p>
+            
+            <div class="services-grid">
+                <article class="service-card">
+    <div class="service-video" onclick="openVideo('images/diseño 9.mp4')">
+        <video muted preload="metadata">
+            <source src="images/diseño 9.mp4" type="video/mp4">
+        </video>
+
+        <div class="play-overlay">
+            <i class="fas fa-play"></i>
+        </div>
+    </div>
+
+    <div class="service-info">
+        <h3>Diseño CAD-CAM</h3>
+        <p>Diseño y fabricación de equipos para agitación bidireccionales</p>
+    </div>
+</article>
+                
+                <article class="service-card">
+    <div class="service-video" onclick="openVideo('images/diseno7.mp4')">
+        <video muted preload="metadata">
+            <source src="images/diseno7.mp4" type="video/mp4">
+        </video>
+
+        <div class="play-overlay">
+            <i class="fas fa-play"></i>
+        </div>
+    </div>
+                    <div class="service-info">
+                        <h3>Prototipo </h3>
+                        <p>Reconstrucción y mantenimiento de maquinaria industrial</p>
+                    </div>
+                </article>
+                
+                <article class="service-card">
+    <div class="service-video" onclick="openVideo('images/diseno7.mp4')">
+        <video muted preload="metadata">
+            <source src="images/diseno7.mp4" type="video/mp4">
+        </video>
+
+        <div class="play-overlay">
+            <i class="fas fa-play"></i>
+        </div>
+    </div>
+                    <div class="service-info">
+                        <h3>Fabricación</h3>
+                        <p>Sistemas de control y robótica industrial para optimizar procesos</p>
+                    </div>
+                </article>
+                
+             <article class="service-card">
+    <div class="service-video" onclick="openVideo('images/diseno7.mp4')">
+        <video muted preload="metadata">
+            <source src="images/diseno7.mp4" type="video/mp4">
+        </video>
+
+        <div class="play-overlay">
+            <i class="fas fa-play"></i>
+        </div>
+    </div>
+                    <div class="service-info">
+                        <h3>Consultoría</h3>
+                        <p>Análisis y mejora de sistemas existentes mediante técnicas avanzadas</p>
+                    </div>
+                    
+                </article>
+
+                <article class="service-card">
+    <div class="service-video" onclick="openVideo('images/diseno7.mp4')">
+        <video muted preload="metadata">
+            <source src="images/diseno7.mp4" type="video/mp4">
+        </video>
+
+        <div class="play-overlay">
+            <i class="fas fa-play"></i>
+        </div>
+    </div>
+                    <div class="service-info">
+                        <h3>Automatización</h3>
+                        <p>Análisis y mejora de sistemas existentes mediante técnicas avanzadas</p>
+                    </div>
+                    
+                </article>
+
+               <article class="service-card">
+    <div class="service-video" onclick="openVideo('images/diseno7.mp4')">
+        <video muted preload="metadata">
+            <source src="images/diseno7.mp4" type="video/mp4">
+        </video>
+
+        <div class="play-overlay">
+            <i class="fas fa-play"></i>
+        </div>
+    </div>
+                    <div class="service-info">
+                        <h3>Producto</h3>
+                        <p>Análisis y mejora de sistemas existentes mediante técnicas avanzadas</p>
+                    </div>
+                    
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Clients Section -->
+    <section class="clients" id="proyectos">
+        <div class="container">
+            <h2 class="section-title">Nuestros Clientes</h2>
+            <p class="section-subtitle">Empresas líderes que confían en nuestros servicios</p>
+            
+            <div class="clients-carousel">
+                <div class="carousel-container">
+                    <div class="carousel-track">
+                        <div class="client-card">
+                            <div class="client-logo">
+                                <img src="images/logo-grisi.png" alt="Logo de grisi" style="max-width: 100px; height: auto;">
+                            </div>
+                            <h3>GRISI</h3>
+                            <p>Empresa mexicana con más de 150 años dedicada a la fabricación de productos de higiene personal, cuidado del cabello, cosméticos y artículos farmacéuticos.</p>
+                        </div>
+                        
+                        <div class="client-card">
+                            <div class="client-logo">
+                                <img src="images/sanborns.png" alt="Logo de grisi" style="max-width: 100px; height: auto;">
+                            </div>
+                            <h3>Grupo Sanborns</h3>
+                            <p>Corporativo mexicano que opera tiendas departamentales, restaurantes y cafeterías bajo marcas como Sanborns, Sears México, Mixup y iShop.</p>
+                        </div>
+                        
+                        <div class="client-card">
+                            <div class="client-logo">
+                                <img src="images/danone1.png" alt="Logo de grisi" style="max-width: 100px; height: auto;">
+                            </div>
+                            <h3>Danone</h3>
+                            <p>Compañía global de alimentos enfocada en productos lácteos, bebidas, nutrición infantil y alimentos especializados, reconocida por promover bienestar y salud a través de opciones nutritivas y accesibles.</p>
+                        </div>
+                        
+                        <div class="client-card">
+                            <div class="client-logo">
+                                <img src="images/petspharma.png" alt="Logo de grisi" style="max-width: 100px; height: auto;">
+                            </div>
+                            <h3>Pet's Pharma</h3>
+                            <p>Empresa enfocada en el desarrollo y distribución de medicamentos, suplementos y productos de salud para el cuidado veterinario y bienestar de mascotas.</p>
+                        </div>
+
+                          <div class="client-card">
+                            <div class="client-logo">
+                                <img src="images/unilever logo.jpeg" alt="Logo de Unilever" style="max-width: 100px; height: auto;">
+                            </div>
+                            <h3>Unilever</h3>
+                            <p>Unilever México es una empresa multinacional que se dedica a la producción de alimentos, bebidas, productos de limpieza y cuidado personal. </p>
+                        </div>
+
+                          <div class="client-card">
+                            <div class="client-logo">
+                                <img src="images/P&G.jpeg" alt="Logo de grisi" style="max-width: 100px; height: auto;">
+                            </div>
+                            <h3>P & G</h3>
+                            <p>
+                              Procter & Gamble (P&G) México es una de las empresas más grandes del país, destacándose en la industria de consumo masivo. Fundada en 1948, P&G ha estado presente en México desde hace más de 75 años, ofreciendo una amplia gama de productos, incluyendo marcas icónicas como Ariel, Pantene, Gillette, Crest, Vick, Pampers y Pepto Bismol. </p>
+                        </div>
+
+                          <div class="client-card">
+                            <div class="client-logo">
+                                <img src="images/colgate.jpeg" alt="Logo de grisi" style="max-width: 100px; height: auto;">
+                            </div>
+                            <h3>Colgate-Palmolive</h3>
+                            <p>Colgate-Palmolive es una empresa multinacional que se dedica a la fabricación y distribución de productos de higiene personal, limpieza del hogar y cuidado dental.</p>
+                        </div>
+
+                          <div class="client-card">
+                            <div class="client-logo">
+                                <img src="images/tecnofarma.png" alt="Logo de grisi" style="max-width: 100px; height: auto;">
+                            </div>
+                            <h3>Tecnofarma</h3>
+                            <p>Empresa enfocada en el desarrollo y distribución de medicamentos, suplementos y productos de salud para el cuidado veterinario y bienestar de mascotas.</p>
+                        </div>
+
+                          <div class="client-card">
+                            <div class="client-logo">
+                                <img src="images/ricap.jpeg" alt="Logo de grisi" style="max-width: 100px; height: auto;">
+                            </div>
+                            <h3>Ricap</h3>
+                            <p>Empresa enfocada en el desarrollo y distribución de medicamentos, suplementos y productos de salud para el cuidado veterinario y bienestar de mascotas.</p>
+                        </div>
+
+                          <div class="client-card">
+                            <div class="client-logo">
+                                <img src="images/haleon.jpeg" alt="Logo de grisi" style="max-width: 100px; height: auto;">
+                            </div>
+                            <h3>Haleon</h3>
+                            <p>Empresa enfocada en el desarrollo y distribución de medicamentos, suplementos y productos de salud para el cuidado veterinario y bienestar de mascotas.</p>
+                        </div>
+
+                          <div class="client-card">
+                            <div class="client-logo">
+                                <img src="images/gsk.png" alt="Logo de grisi" style="max-width: 100px; height: auto;">
+                            </div>
+                            <h3>GSK</h3>
+                            <p>Empresa enfocada en el desarrollo y distribución de medicamentos, suplementos y productos de salud para el cuidado veterinario y bienestar de mascotas.</p>
+                        </div>
+
+
+                           
+                    </div>
+                </div>
+                <button class="carousel-button prev"><i class="fas fa-chevron-left"></i></button>
+                <button class="carousel-button next"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+<!-- Gallery Section -->
+<section class="gallery-section">
+    <div class="container">
+        <h2 class="section-title">Galería</h2>
+        <p class="section-subtitle">Algunos de nuestros trabajos más destacados</p>
+
+        <div class="gallery-grid">
+
+            <!-- Imagen -->
+            <div class="gallery-item">
+                <img src="images/foto1.jpeg" alt="Automatización industrial" class="gallery-media">
+                <div class="gallery-overlay">
+                    <span class="gallery-category">Diseño</span>
+                    <h3 class="gallery-title"></h3>
+                </div>
+            </div>
+
+            <!-- Imagen -->
+            <div class="gallery-item">
+                <img src="images/fotoalge2.jpeg" alt="Ingeniería" class="gallery-media">
+                <div class="gallery-overlay">
+                    <span class="gallery-category">Cursos</span>
+                    <h3 class="gallery-title"></h3>
+                </div>
+            </div>
+
+            <!-- Imagen -->
+            <div class="gallery-item">
+                <img src="images/fotoalge3.jpeg" alt="Ingeniería" class="gallery-media">
+                <div class="gallery-overlay">
+                    <span class="gallery-category">Ingeniería</span>
+                    <h3 class="gallery-title"></h3>
+                </div>
+            </div>
+
+           
+        </div>
+
+        <div class="gallery-button-container">
+            <a href="galeria.html" class="gallery-button">Ver más <i class="fas fa-arrow-right"></i></a>
+        </div>
+    </div>
+</section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>¿Listo para transformar su operación industrial?</h2>
+                <p>Contáctenos hoy mismo para una consultoría gratuita y descubra cómo podemos optimizar sus procesos</p>
+                <a href="contacto.html" class="btn btn-primary">Solicitar Consultoría</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-info">
+                    <a href="index.html" class="footer-logo">
+                        <i class="fas fa-cogs"></i> GRUPO ALGE
+                    </a>
+                    <p class="footer-text">Transformando ideas en soluciones industriales innovadoras. Especialistas en ingeniería inversa, automatización y optimización de procesos.</p>
+                    <div class="social-links">
+                        <a href="https://facebook.com/controlytecnologiaenllenado" target="_blank" class="social-link">
+                            <img src="images/Facebook_Logo_(2019).png" alt="Facebook" style="width:24px; height:24px; vertical-align:middle;">
+                        </a>
+                        <a href="https://wa.me/+525573916947" target="_blank" class="social-link">
+                            <img src="images/whatsapp.png" alt="WhatsApp" style="width:24px; height:24px; vertical-align:middle;">
+                        </a>
+                        
+                    </div>
+                </div>
+                
+                <div class="footer-links-group">
+                    <h3 class="footer-title">Enlaces Rápidos</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html" class="footer-link">Inicio</a></li>
+                        <li><a href="nosotros.html" class="footer-link">Nosotros</a></li>
+                         <li><a href="galeria.html" class="footer-link">Galería</a></li>
+                        <li><a href="contacto.html" class="footer-link">Contacto</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links-group">
+                    <h3 class="footer-title">Servicios</h3>
+                    <ul class="footer-links">
+                        <li><a href="sustitucion.html" class="footer-link">Maquinados</a></li>
+                        <li><a href="overhaul.html" class="footer-link">Overhaul</a></li>
+                        <li><a href="diseño.html" class="footer-link">Diseño</a></li>
+                        <li><a href="consultoria.html" class="footer-link">Consultoría</a></li>
+                        <li><a href="automatizacion.html" class="footer-link">Automatización</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links-group">
+                    <h3 class="footer-title">Contacto</h3>
+                    <ul class="footer-links">
+                        
+                        <li><a href="tel:+525573916947" class="footer-link"><i class="fas fa-phone"></i> +52 55 7391 6947</a></li>
+                        <li><a href=":armando.mtz71@outlook.com" class="footer-link"><i class="fas fa-envelope"></i> armando.mtz71@outlook.com</a></li>
+                        
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; 2026 Grupo Alge. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+
+    
+
+<!-- Botón flotante de WhatsApp con preguntas frecuentes -->
+    <div class="whatsapp-float">
+        <button class="whatsapp-button" id="whatsappButton">
+            <i class="fab fa-whatsapp"></i>
+        </button>
+        
+        <div class="questions-container" id="questionsContainer">
+            <h3>Preguntas Frecuentes</h3>
+            <ul class="question-list">
+                <li class="question-item" data-question="Quiero información sobre sus servicios">
+                    <i class="fas fa-question-circle"></i> Información de servicios
+                </li>
+                <li class="question-item" data-question="Necesito una cotización para un proyecto">
+                    <i class="fas fa-file-invoice-dollar"></i> Solicitud de cotización
+                </li>
+                <li class="question-item" data-question="¿Cuáles son sus horarios de atención?">
+                    <i class="fas fa-clock"></i> Horarios de atención
+                </li>
+                <li class="question-item" data-question="¿Tienen servicio de instalación?">
+                    <i class="fas fa-tools"></i> Servicio de instalación
+                </li>
+                <li class="question-item" data-question="Quiero agendar una cita para asesoría">
+                    <i class="fas fa-calendar-check"></i> Agendar cita
+                </li>
+                <li class="question-item" data-question="Otra consulta">
+                    <i class="fas fa-comments"></i> Otra consulta
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Música de fondo -->
+<audio id="background-music" loop>
+    <source src="images/Iron Maiden - The Number Of The Beast (Official Video).mp3" type="audio/mpeg">
+</audio>
+
+<!-- Botón música -->
+<button id="music-toggle" class="music-button">
+    <i class="fas fa-volume-mute"></i>
+</button>
+
+<div id="song-notification" class="song-notification">
+    Estás Reproduciendo: Iron Maiden - The Number Of The Beast
+</div>
+
+<div id="videoModal" class="video-modal">
+
+    <span class="close-video">&times;</span>
+
+    <video id="modalVideo" controls>
+        <source src="" type="video/mp4">
+    </video>
+
+</div>
+
+
+
+<script src="script1.js"></script>
+    
+</body>
+</html>
