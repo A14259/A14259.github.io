@@ -56,11 +56,11 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   // Cerrar menú al seguir un enlace (en móvil)
-  if (menu) {
-    $$('.nav-link, .nav-sublink', menu).forEach(a=>{
-      a.addEventListener('click', () => { if(!mqDesktop.matches) closeMenu(); });
-    });
-  }
+ $$('.nav-link:not(.nav-dropdown-toggle), .nav-sublink', menu).forEach(a=>{
+  a.addEventListener('click', () => { 
+    if(!mqDesktop.matches) closeMenu(); 
+  });
+});
 
   // Al pasar a desktop, resetea estados
   mqDesktop.addEventListener('change', (e)=>{ if(e.matches) closeMenu(); });
